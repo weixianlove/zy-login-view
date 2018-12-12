@@ -58,6 +58,8 @@ Component({
           title: '登录中...',
           mask: true,
         });
+        
+        // 这里是一个登录的相关操作的封装，引入的外部js文件
         // login().then(() => {
         //   this.triggerEvent('onLoginSuccess', {
         //     payload: this.data.payload

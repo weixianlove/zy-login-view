@@ -13,7 +13,6 @@ Page({
 
   /**
    * 点击事件原来需要做的操作
-   * 
    * 登录成功后自动继续做这个操作
    */
   jumpToLogsPage: function(data) {
@@ -29,12 +28,12 @@ Page({
       url: '../logs/logs'
     })
   },
-  onLoad: function () {
-
+  onShow: function () {
     this.setData({
       hasLogin: wx.getStorageSync('isLogin')
     })
-
+  },
+  onLoad: function () {
     // if (app.globalData.userInfo) {
     //   this.setData({
     //     userInfo: app.globalData.userInfo,
