@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "login-view": "../../component/login-view/login-view"
+  }
+}

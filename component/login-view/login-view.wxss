@@ -1,0 +1,15 @@
+/* component/login-view.wxss */
+.container{
+    position: relative;
+}
+.auth{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1000;
+    font-size: 0;
+    line-height: 0;
+}
