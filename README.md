@@ -1,5 +1,5 @@
-# zy-login-view
-#### Help with operations that require login to be processed （帮助处理需要登录才能处理的操作）
+# zy-login-view 微信小程序登录组件库封装
+#### Help with operations that require login to be processed in WxMinProgram（帮助在微信小程序中处理需要登录才能处理的操作）
 
 需要已登录状态才能继续操作这个具体应用场景我相信产品经理们能够给你一个详情解答
 
