@@ -2,9 +2,17 @@
 <view class="container">
   <view class="userinfo">
     <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>-->
-      <login-view hasLogin='{{hasLogin}}' payload='sendInData<AnyType>' bind:onLoginSuccess="jumpToLogsPage">
-        <view class='login'>已登录状态才能跳转</view>
-      </login-view>
+    <login-view hasLogin='{{hasLogin}}' payload='sendInData<AnyType>' bind:onLoginSuccess="jumpToLogsPage">
+      <view class='login'>已登录状态才能跳转</view>
+    </login-view>
+    <view class='login-state'>
+      <view wx:if="{{hasLogin}}">
+        当前已登录
+      </view>
+      <view wx:else>
+        当前未登录
+      </view>
+    </view>
     <!-- <block wx:else> 
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>

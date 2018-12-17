@@ -23,3 +23,8 @@
 .login {
   color: #000;
 }
+
+.login-state {
+  margin-top: 50rpx;
+  color: red;
+}
