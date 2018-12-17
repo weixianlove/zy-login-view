@@ -14,4 +14,4 @@
 
 具体使用介绍请看简书：[微信小程序登录组件封装 —— 一次性解决需要已登录状态才能继续的操作](https://www.jianshu.com/p/1abbf8655425)
 
-![login-view](https://upload-images.jianshu.io/upload_images/2955252-e1f03eb05c18c1be.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/640)
+![login-view](https://upload-images.jianshu.io/upload_images/2955252-3f1fb1006d79d62e.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/376)
